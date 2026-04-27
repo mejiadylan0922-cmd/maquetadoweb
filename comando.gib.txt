@@ -22,3 +22,6 @@ git push - u origin main
 gib status 
 (comprueba el estadode la rama)
 
+ git remote add origin 
+https://github.com/mejiadylan0922-cmd/maquetadoweb.git
+(añade la direccion de su repósitorio se hace o ejecuta una unica vez).
