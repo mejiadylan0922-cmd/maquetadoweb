@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+</head>
+<body>
+    
+    <!-- la etiqueta table se utiliza para definir tablas en html. todo el contenidode la tabla,incluidas las filas y celdas, se coloca dentro de esta etiqueta -->
+
+    <!-- la etiqueta tr se utiliza para definir una fila en una tabla. cada fila puede contener una o mas celdas, que se definen utilizando las etiquetas td (para celada de datos)o th (para celdas de encabezado) -->
+
+    <!-- la etiqueta td se define una celda de datos dentro de una fila . cada etiqueta td representa una colubna en la tabla -->
+
+
+
+    <!-- la etiqueta th define una celda de encabezado dentro de una fila. cada etiqueta th representa un encabezado de colubna en la tabla  -->
+
+<table border="1"> <!-- etiqueta de apertura -->
+
+ <tr>
+    <th>encabezado 1</th> <!-- celda de encabezado-->
+    <th>encabezado 2</th> <!-- celda de encabezado-->
+    <th>encabezado 3</th> <!-- celda de encabezado-->
+ </tr>
+
+<tr>
+    <th>dato 1</th> <!-- celda de encabezado-->
+    <th>dato 2</th> <!-- celda de encabezado-->
+    <th>dato 3</th> <!-- celda de encabezado-->
+ </tr>
+
+<tr>
+    <th>dato 4</th> <!-- celda de encabezado-->
+    <th>dato 5</th> <!-- celda de encabezado-->
+    <th>dato 6</th> <!-- celda de encabezado-->
+ </tr>
+
+
+</table> <!-- etiqueta de cierre -->
+
+<table border="1">
+    <caption> paises y capitales</caption>
+    <tr>
+        <th>paises</th>
+        <th>capitales</th>
+    </tr>
+    <tr>
+        <th>españa</th>
+        <th>madrid</th>
+    </tr>
+
+     <tr>
+        <th>francia</th>
+        <th>paris</th>
+    </tr>
+
+    <tr>
+        <th>italia</th>
+        <th>roma</th>
+    </tr>
+
+</table>
+
+<table border="1"> <!--tabla de celdas combinadas-->
+    <tr>
+        <th colspan="4"> mundial de futbol</th> <!-- celda de encabezado que abarca dos columnas-->
+    </tr>
+
+    <tr>
+        <td rowspan="3">paises con mayoria de goles</td> <!--celda de datos que abarca dos filas-->
+        <td>brasil 2</td> <td>230</td>
+    </tr>
+
+    <tr>
+        <td>alemania</td> <td>180</td>
+    </tr>
+
+    <tr>
+        <td>argentina</td> <td>150</td>
+    </tr>
+
+
+</table>
+
+
+</body>
+</html>
