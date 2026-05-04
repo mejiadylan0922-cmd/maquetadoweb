@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bloque  vs linea - guia visual</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 20px auto;
+            color: 333;}
+
+        /*estilo para los elementos de bloque*/
+        .ejemplo-bloque {
+            background-color: #ffe0e0;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #ff5f5f;}
+
+        /*estilo para los elementos en linea*/
+        .ejemplo-inline {
+            background-color: #e0f0ff;
+            padding: 2px 5px;
+            border: 2px solid #5fb25f;}
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 40px 0; }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;}
+        </style>
+</head>
+<body>
+    <h1>guia de flujo html</h1>
+
+    <section>
+        <h2>1. Elementos de Bloque (<code>display: block</code>)</h2>
+        <p>0bserva cómo estas cajas ocupan <strong>todo el ancho</strong> y se apilan una sobre otra:</p>
+
+        <div class="ejemplo-bloque">Soy un <code>&lt;div&gt;</code> (Bloque 1)</div>
+        <div class="ejemplo-bloque">Soy un <code>&lt;div&gt;</code> (Bloque 2)</div>
+
+        <p><em>Conclusión:</em> Siempre empiezan en una línea nueva.</p>
+    </section>
+
+    <hr>
+    <section>
+        <h2>3. Comparación Visual Final</h2>
+
+        <div class="ejemplo-bloque">
+            Soy un Bloque. Si intentas poner algo aquí, aparecerá debajo.
+            <span class="ejemplo-inline">Inline</span> 
+            aquí, yo lo contengo, pero sigo siendo una caja grande.
+        </div>
+
+        <p>
+            Texto normal.
+            <span class="ejemplo-inline">Soy Inline</span>
+            <div class="ejemplo-bloque">¡ Cuidado! Soy un Bloque apareciendo de la nada. He forzado un salto de línea.</div> 
+            el texto continúa después del bloque.
+        </p>
+
+    </section>
+
+</body>
+</html>
