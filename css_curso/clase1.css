@@ -1,0 +1,58 @@
+/* llamar a un elemento por si ID */
+#titlo-principal {
+    color: blue;
+    font-size: 24px;
+}
+    
+/* llamar un elmento por su clase*/
+    .subtitulo {
+        color: green;
+        font-size: 20px;
+    }
+
+    /* llamar un elemento por su etiqueta */
+    h2 {
+        color: red;
+        font-size: 30px;
+    }
+
+    li {
+        color: #000000; /* negro hexacadecimal */
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: square;
+    }
+    .faltante {
+        color: red;
+    
+    }
+
+    .ingrediente {
+        color: green;
+
+    }
+
+    #ingrediente-importante {
+        color: teal;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        color: black;
+        background-color: blueviolet;
+        font: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flexbox;
+        width: 500px;
+        height: 100;
+        x: calc(50px + 100);
+        y: calc(50px + 100);
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: dashed;
+        overflow: visible;
+    
+    }
